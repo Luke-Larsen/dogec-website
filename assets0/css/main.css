@@ -1,0 +1,121 @@
+.img-overlay {
+    position: relative;
+    max-width: 500px;
+}
+
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41,128,185,0.9);
+    color: #fff;
+    padding: 50%;
+    padding: 50%;
+}
+
+.text {
+    max-width: 500px;
+}
+
+
+.invertColor{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
+
+/* Sections */
+.main{
+  position: absolute;
+  width:100%;
+  height:750px;
+  background-image: url("https://images.unsplash.com/photo-1547989453-11e67ffb3885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+}
+
+
+/* Buttons */
+
+.btnBrown{
+  background-color:#A8633A;
+}
+.btnTransparent{
+  border-color:#FFF;
+  color:white;
+}
+.btnWhite{
+  background-color:#FFF;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* Nav bar changes */
+.navbar{
+  margin-top:53px;
+  margin-right:118px;
+}
+.bg-transparent {
+  background:transparent;
+}
+.navbar-brand {
+  margin-left:115px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(255 255 255)!important;
+}
+.nav-item{
+  margin-left:29px;
+}
+
+
+/* Special Text */
+.gradient {
+  background: linear-gradient(45deg, #FFF, #CC8E58);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+
+/* Arrow */
+.arrow{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.arrow span{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid #ffffff;
+  border-right: 5px solid #ffffff;
+  transform: rotate(45deg);
+  margin: 0px;
+  animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes animate {
+  0%{
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: rotate(45deg) translate(20px,20px);
+  }
+}
