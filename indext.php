@@ -63,7 +63,7 @@
 						<div class="col infoBoxes">
 							<div class="row g-0 infoInner">
 								<div class="col">
-									<div style='width:208px;height:217px;background-color:red;'></div>
+									<img src="assets0/images/governance.png" style='width:208px;height:217px;' alt="governance">
 								</div>
 								<div class="col">
 									<span style='font-size: 25px;'>Self-governed</h3>
@@ -76,7 +76,7 @@
 						<div class="col infoBoxes">
 							<div class="row g-0 infoInner">
 								<div class="col">
-									<div style='width:208px;height:217px;background-color:red;'></div>
+									<img src="assets0/images/privacy.png" style='width:208px;height:217px;' alt="Private">
 								</div>
 								<div class="col">
 									<span style='font-size: 25px;'>Private</h3>
@@ -91,7 +91,7 @@
 						<div class="col infoBoxes">
 							<div class="row g-0 infoInner">
 								<div class="col">
-									<div style='width:208px;height:217px;background-color:red;'></div>
+									<img src="assets0/images/green.png" style='width:208px;height:217px;' alt="Green">
 								</div>
 								<div class="col">
 									<span style='font-size: 25px;'>Green</h3>
@@ -104,7 +104,7 @@
 						<div class="col infoBoxes">
 							<div class="row g-0 infoInner">
 								<div class="col">
-									<div style='width:208px;height:217px;background-color:red;'></div>
+									<img src="assets0/images/rewards.png" style='width:208px;height:217px;' alt="Rewards">
 								</div>
 								<div class="col">
 									<span style='font-size: 25px;'>Fair</h3>
