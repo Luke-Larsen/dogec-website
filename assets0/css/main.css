@@ -66,13 +66,49 @@
   top: 750px;
 }
 .third{
-  background-color:black;
+  background-color:#18171D;
+  color:#fff;
   width:100%;
   height:796px;
   position: absolute;
   top: 1845px;
 }
+.Announcements{
+  text-align:center;
+  color:#fff;
+  background-color:black;
+  top:2641px;
+  padding-top:111px;
+  width:100%;
+  height:942px;
+  position: absolute;
+}
 
+.community{
+  background: linear-gradient(91.31deg, #000000 0%, #CC8E58 100%);
+  color:#fff;
+  width:100%;
+  height:586px;
+  top:3581px;
+  position: absolute;
+}
+
+.buy{
+  background-color:#18171D;
+  color:#fff;
+  top: 4164px;
+  width:100%;
+  height:1000px;
+  position: absolute;
+}
+
+.footer{
+  color:#fff;
+  top: 5158px;
+  height:565px;
+  width:100%;
+  position: absolute;
+}
 
 /* Buttons */
 
@@ -81,7 +117,7 @@
   color:#FFF;
 }
 .btnTransparent{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   border-color:#FFF;
   color:white;
 }

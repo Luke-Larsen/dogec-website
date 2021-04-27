@@ -118,16 +118,58 @@
 				</div>
 			</div>
 			<div class="third">
-				<div style='height: 699px;width: 1326px;'>
-					<div class="container">
-						<div class="row">
-							<div class="col">
-							</div>
-							<div class="col">
-							</div>
+				<div class="container">
+					<div class="row">
+						<div class="col" style='margin-top:216;'>
+							<h4> A ready-to-rock </h4>
+							<h3 class='gradient'> Wallet</h3>
+							<h6> Is the only thing you need to enjoy completely from the DogeCash ecosystem. </h6>
+							<button class="btn btnBrown" type="submit">Download wallet</button>
+							<h5> Alternative downloads at our <a href='https://github.com/dogecash/dogecash/releases'> Github</a></h5>
+							<h5> Problems? Pass by our <a href='#'>Help Center</a></h5>
+						</div>
+						<div class="col" style='margin-top:50;'>
+							<div style='height: 699px;width: 699px; background-color:red'></div>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div class='Announcements'>
+				<h4> What's new on DogeCash </h4><br>
+				<h2 class="gradient"> Announcements </h2><br>
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div style='height: 222px;width: 387px;background-color:red;'></div>
+							<h3> DogeCash Gift Cards</h3>
+							<h5>We have been accepted by the team over at Flits to have DogeCash now available to exchange on their...</h5>
+						</div>
+						<div class="col">
+							<div style='height: 222px;width: 387px;background-color:red;'></div>
+							<h3> DogeCash Gift Cards</h3>
+							<h5>We have been accepted by the team over at Flits to have DogeCash now available to exchange on their...</h5>
+						</div>
+						<div class="col">
+							<div style='height: 222px;width: 387px;background-color:red;'></div>
+							<h3> DogeCash Gift Cards</h3>
+							<h5>We have been accepted by the team over at Flits to have DogeCash now available to exchange on their...</h5>
+						</div>
+					</div>
+				</div>
+				<button class="btn btnBrown" type="submit">More Announcements</button>
+			</div>
+			<div class='community'>
+				<h1 class='gradient' style='display: flex;justify-content: center;'>What's a project without people?</h1>
+				<h5 style='text-align:center;'>DogeCash has been alive since 2018 with a dedicated team and a strong community base.</h5>
+
+			</div>
+			<div class='buy'>
+				<h1 class='gradient'> Buy directly from us </h1>
+				<h5>Best exchange rates without the hassle of an exchange</h5>
+			</div>
+			<div class='footer'>
+				<hr>
+				<h4>About Us Downloads Support Join Us
 			</div>
 		</div>
 	</body>
