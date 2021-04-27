@@ -15,6 +15,11 @@
     padding: 50%;
 }
 
+.noPadding{
+  padding-right:0;
+  padding-left:0;
+}
+
 .text {
     max-width: 500px;
 }
@@ -25,15 +30,47 @@
   filter: invert(100%);
 }
 
+.infoBoxes{
+  background-color:#18171D;
+  color:#FFF;
+  border-radius: 25px;
+  margin-left:41px;
+  height: 306px;
+  width: 580px;
+}
+.infoInner{
+  margin-top: 44px;
+  margin-bottom: 44px;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+
 /* Sections */
 .main{
+  top: 0;
   position: absolute;
   width:100%;
   height:750px;
+  padding-bottom:60px;
   background-image: url("https://images.unsplash.com/photo-1547989453-11e67ffb3885?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80");
   background-repeat: no-repeat;
   background-position: center; 
   background-size: cover;
+}
+.second{
+  background-color:black;
+  width:100%;
+  height:1142px;
+  position: absolute;
+  top: 750px;
+}
+.third{
+  background-color:black;
+  width:100%;
+  height:796px;
+  position: absolute;
+  top: 1845px;
 }
 
 
@@ -41,14 +78,12 @@
 
 .btnBrown{
   background-color:#A8633A;
+  color:#FFF;
 }
 .btnTransparent{
+  background-color: rgba(0, 0, 0, 0.5);
   border-color:#FFF;
   color:white;
-}
-.btnWhite{
-  background-color:#FFF;
-  color: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -73,7 +108,7 @@
 
 /* Special Text */
 .gradient {
-  background: linear-gradient(45deg, #FFF, #CC8E58);
+  background: linear-gradient(253.19deg, #CC8E58 0%, #FFFFFF 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -moz-background-clip: text;
